@@ -24,7 +24,7 @@ Las funciones o métodos son muy sencillas, entre ellas tenemos:
 * <code>BigInteger length();</code> Esta función obtiene el tamaño o cifra del número pero devuelve un BigInteger.
 * <code>string toString();</code> Convierte el objeto BigInteger en un string.
 
-<h2>Imagen</h2>
+<h2>Imágenes</h2>
 
 ![image](https://user-images.githubusercontent.com/43942761/112734157-0c17c600-8f12-11eb-873c-b01c379d3404.png)
 ![image](https://user-images.githubusercontent.com/43942761/112734191-336e9300-8f12-11eb-8335-ba09add7aa49.png)
