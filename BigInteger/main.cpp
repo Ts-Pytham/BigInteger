@@ -17,7 +17,6 @@ int main()
 
 void probandoBigInteger() {
     BigInteger bi, bi2;
-
     std::cout << "Ingrese el valor del primer BigInteger" << std::endl;
     std::cin >> bi;
     std::cout << "Ingrese el valor del segundo BigInteger" << std::endl;
@@ -31,14 +30,14 @@ void probandoBigInteger() {
 
     std::cout << "La suma es: " << sum << std::endl;
     std::cout << "La resta es: " << res << std::endl;
-
+    std::cout << "La multiplicación es: " << bi * bi2 << std::endl;
 
 
     // Valor de suma incrementada y valor de suma con otro valor
     ++sum;
-    std::cout << "el valor de suma incremento es: " << sum << std::endl;
+    std::cout << "el valor de suma aumentado en 1 es: " << sum << std::endl;
     --sum;
-    std::cout << "el valor de suma deincremento es: " << sum << std::endl;
-    BigInteger suma = sum + 3;
-    std::cout << "El valor de suma con un valor int es: " << suma << std::endl;
+    std::cout << "el valor de suma decrementando en 1 es: " << sum << std::endl;
+    //BigInteger suma = sum + 3;
+    //std::cout << "El valor de suma con un valor int es: " << suma << std::endl;
 }

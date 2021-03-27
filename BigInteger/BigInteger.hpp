@@ -6,7 +6,7 @@ class BigInteger
 {
 public:
 	
-	//Constructor's
+	//Constructors
 	BigInteger();
 	BigInteger(string value);
 	BigInteger(const char* value);
@@ -14,12 +14,12 @@ public:
 	BigInteger(int value);
 	BigInteger(long int value);
 	
-	//Function's
+	//Functions
 	int size();
 	BigInteger length();
 	string toString();
 
-	//Operators friend's
+	//Operators friends
 	friend std::ostream& operator<<(std::ostream& o, BigInteger bi);
 	friend std::istream& operator >>(std::istream& i, BigInteger &bi);
 
@@ -36,7 +36,7 @@ public:
 	void operator-=(BigInteger bi2);
 	void operator*=(BigInteger bi2);
 
-	//Operators Increment's & Decrement's
+	//Operators Increments & Decrements
 	void operator++();
 	void operator++(int);
 	void operator--();
